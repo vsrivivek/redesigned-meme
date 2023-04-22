@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: aqua;
+}
+.cont {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 150px;
+  background-color: violet;
+}
+.button {
+  border-radius: 8px;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  margin-left: 70px;
+  margin-top: 100px;
+}
+.cont2 {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 150px;
+  background-color: yellow;
+}
+.btn1 {
+  color: #666;
+  background: url('./components/Images/not_visited.png') no-repeat;
+  width: 26px;
+  height: 26px;
+  border: none;
+  background-size: 28px 25px;
+  background-position: -1px 2px;
+  font-size: 11px;
+}
+
+
+
+
+.btn2 {
+  background: url('./components/Images/not_answered.png') no-repeat;
+  color: #dde4ec;
+  width: 26px;
+  height: 26px;
+  border: none;
+  background-size: 28px 25px;
+  background-position: -1px 2px;
+  font-size: 11px;
+}
+
+.btn3 {
+  color: #dde4ec;
+  background: url('./components/Images/review.png') no-repeat;
+  width: 26px;
+  height: 26px;
+  border: none;
+  background-size: 28px 25px;
+  background-position: -1px 2px;
+  font-size: 11px;
+ 
+}
+
+
+
+.btn4 {
+  color: #dde4ec;
+  background: url('./components/Images/review_answer.png') no-repeat;
+  background-position: 0px -2px;
+  width: 26px;
+  height: 26px;
+  border: none;
+  background-size: 28px 25px;
+  background-position: -1px 2px;
+  font-size: 11px;
+
+}
+.btn5 {
+  color: #dde4ec;
+  background: url('./components/Images/answered.png') no-repeat;
+  width: 26px;
+  height: 26px;
+  border: none;
+  background-size: 28px 25px;
+  background-position: -1px 2px;
+  font-size: 11px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 0px;
+  padding :10px 0px 10px 10px;
+  background-color: antiquewhite;  
+ 
+  width: 87%
+
+}
+
+.left { grid-area: left; font-size: large; width: 1075px; border-style: solid;padding: 10px }
+.right { grid-area: right; border-style: solid; width: 355px; padding: 0px 0px 0px 40px }
+.total {
+  display: grid;
+  
+   grid-template-areas:
+    'header header header header header header header header header header header header'
+    'left left left left left left left left  right right right right'
+    'buttons buttons buttons buttons buttons buttons buttons buttons right right right right'
+    ;  
+  gap: 0px;
+  
+  padding: 0 29px 20px 20px; 
+  
+}
+
+.header {
+background-color: aquamarine;   text-align: center;
+}
+.buttons{
+  display: grid;
+  grid-template-areas: 'buttonone buttontwo buttonthree buttofour auto auto auto auto auto' ;
+  gap: 10px;
+  padding: 5px;
+}
+.buttonone{
+  gap: 10px;
+}
+.title{
+  padding-left:  20px;
+}
+.timerdiv{
+  width: 87%;
+  background-color: aqua;
+  padding: 5px; font-size: larger;
+}
+.divA{
+  width: 87%;
+  background-color: red;
+  padding: 5px;
+  font-size: larger;
+}
+.cakediv{
+  display: grid;
+  grid-template-columns: auto auto ;
+  background-color: azure;
+  width: 87%;
+  gap: 0px;
+  padding: 0px 5px 5px 5px;
+}
